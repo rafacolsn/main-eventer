@@ -1,6 +1,7 @@
 body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** Initialisation des marges + police****/
 .container {
-
+	width: 960px;
+	margin: 0 auto;
 }
 
 
@@ -22,26 +23,56 @@ body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** I
 
 .event-layout {
 	display: flex;
-}
-
-.event-header {
-
+	background-color: green;
+	margin: 0 auto;
+	align-content: center;
 }
 
 .box-group {
 	display: flex;
+	background-color: yellow;
+	margin: 0 auto;
 }
 
 .event-box {
-
+	
 }
 
 .event-box-title {
-
+	background-color: #9C2819;
+	color: white;
+	text-align: center;
+	font-size: 20px;
 }
 
 .event-box-content {
+	background-color: #777777;
 
+}
+
+.box-text1 {
+	background-color: blue;
+	text-align: center;
+	font-size: 15px;
+	color: #6ED3F4;
+}
+
+.box-text2 {
+	background-color: #911839;
+	text-align: center;
+	font-size: 16px;
+}
+
+.box-text3 {
+	background-color: #273739;
+	text-align: center;
+	font-size: 14px;
+}
+
+.box-text4 {
+	background-color: #173839;
+	text-align: center;
+	font-size: 10px;
 }
 
 .form {
