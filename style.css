@@ -16,6 +16,25 @@ body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** I
 
 }
 
+.team-title {
+    width:960px;
+    height:90px;
+    background-color: rosybrown;
+}
+
+.member-container {
+    width: 400px;
+    height: 90px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+}
+
+.member-ligne {
+    display : flex;
+}
+
+
 .member {
 
 }
