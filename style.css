@@ -8,9 +8,8 @@ body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** I
 
 }
 
-.weare {
 
-}
+
 
 .team {
 
@@ -19,24 +18,41 @@ body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** I
 .team-title {
     width:960px;
     height:90px;
-    background-color: rosybrown;
+    text-align: center;
+ 
 }
 
 .member-container {
-    width: 400px;
-    height: 90px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    width: 480px;
+    height: 200px;
     
 }
 
+    
+
+.member-text {
+    justify-content: center;
+    text-align: justify;
+}
 .member-ligne {
     display : flex;
 }
+.member-container {
+    display: flex;
+}
+
+.member-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
-.member {
-
+.member-titre {
+background-color: brown;
+color: whitesmoke;
+width: 40px;
+text-align: center;
 }
 
 .event-header {
