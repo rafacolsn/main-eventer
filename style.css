@@ -128,7 +128,6 @@ section p {
 .event-layout h2 {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	background-color: green;
 	width: 300px;
 
 }
