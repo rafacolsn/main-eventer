@@ -1,41 +1,311 @@
-body{margin:0; padding:0;font-family:Comfortaa-Regular, sans-serif }     /**** Initialisation des marges + police****/
-.container {
-
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url(fonts/Comfortaa-Regular.ttf);
 }
 
+body , h2 {
+    margin:0;
+    padding:0;
+    font-family:"Comfortaa-Regular", sans-serif
+}
+h2 {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+.weare-title{
+    position: relative;
+    padding-left: 1em;
+}
+.title {
+    text-align: center;
+    position: relative;
+}
+
+.form-title {
+    text-align: left;
+}
+
+.weare-underlined {
+    background: brown;
+    height: 6px;
+    width: 230px;
+    position: absolute;
+    left:3%;
+ }
+
+ .team-underlined {
+     background: brown;
+     height: 4px;
+    width: 210px;
+    position: absolute;
+    left: 39%;
+  }
+
+ .events-underlined {
+     background: brown;
+     height: 4px;
+     width: 200px;
+     position: absolute;
+     left: 17%;
+  }
+
+ .form-underlined {
+      background: brown;
+      height: 4px;
+      width: 327px;
+      position: absolute;
+      left:12%;
+   }
+
+.container {
+  width:960px;
+  margin: 0 auto;
+}
+
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
+  url("../main-eventer/images/header_Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:485px;
+  margin-bottom: 8em;
+}
+
+.navigation {
+    font-family: sans-serif;
+    float:right;
+    padding-right: 180px;
+}
+
+nav > ul {
+    display: flex;
+    padding:10 0 0 10;
+}
+
+li {
+    list-style: none;
+    font-size: 17px;
+    color:white;
+    margin-right: 25px;
+}
 
 .logo {
+  position: absolute;
+  top:70px;
+  left: 40%;
+  padding-top: 100px;
+}
+
+#weare {
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-row-gap: 15px;
+    margin-bottom: 8em;
+}
+
+.weare-up {
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 15px;
+}
+
+.weare-img {
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.weare-img img {
+    width: 100%;
+}
+
+.vignette {
+    background-color: brown;
+    border: 3px solid white;
+    color: white;
+    padding: 3px 5px;
+    position: absolute;
+    top:20px;
+    left: -80px;
+}
+
+.weare-up-right {
+    display: grid;
+    grid-column : 2 / 3;
+    grid-template-rows: 30% 70%;
+}
+
+.weare-up-right h2 {
+    grid-row : 1 / 2;
+    margin: 1.3em auto 0;
+    padding-bottom: 10px;
+}
+
+.weare-up-right p {
+    grid-row: 2 / 3;
+    margin: auto;
+    text-align: justify;
+    padding: 0 1em;
+}
+
+section p {
+    grid-row: 2 / 3;
+    margin: auto;
+    text-align: justify;
+    padding: 0.5em 1em 0 0;
+}
+
+.team-title {
+    width:960px;
+    height:90px;
+    text-align: center;
 
 }
 
-.weare {
+.member-container {
+    width: 480px;
+    height: 200px;
 
 }
 
-.team {
+.member-text {
+    justify-content: center;
+    text-align: justify;
+}
+
+.member-ligne {
+    display : flex;
+}
+
+.member-container {
+    display: flex;
+}
+
+.member-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.member-titre {
+    background-color: brown;
+    color: whitesmoke;
+    width: 40px;
+    text-align: center;
+}
+
+.event-layout {
+	display: grid;
+	width: 960px
+	grid-template-columns: 5%, 15%, 60%, 15%, 5%;
+}
+
+.image1 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.event-layout h2 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	width: 300px;
 
 }
 
-.member {
-
+.image2 {
+	grid-column-start: 4;
+	grid-column-end: 5;
 }
 
-.event-header {
-
+.box-group {
+	display: flex;
+	padding: 0 5% 0 5%;
 }
 
 .event-box {
-
+	margin: 30px;
+	box-shadow: 0px 5px 8px grey;
 }
 
 .event-box-title {
+	background-color: #9C2819;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
 
+.box-group p {
+	margin:0;
+	padding: 5px 20px 5px 20px;
 }
 
 .event-box-content {
 
 }
 
+.box-text1 {
+	text-align: center;
+	font-size: 15px;
+	color: #6ED3F4;
+}
+
+.box-text2 {
+	text-align: center;
+	font-size: 16px;
+}
+
+.box-text3 {
+	text-align: center;
+	font-size: 14px;
+}
+
+.box-text4 {
+	text-align: center;
+	font-size: 10px;
+	color: grey;
+}
+
 .form {
 
+}
+
+footer{
+  display:grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 30% 70%;
+  height:260px;
+  background-image: url("images/swirl_pattern.png");
+  align-items: center;
+  font-family: arial;
+}
+
+.footer-par{
+  grid-column: 2;
+  grid-row:1;
+}
+
+.footer-par > p {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 38px;
+}
+
+.footer-logo-container {
+  width: 400px;
+  grid-column:2;
+  grid-row: 2;
+  display:flex;
+  justify-content:space-between;
+  margin-top: -20px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
 }
