@@ -4,39 +4,106 @@ src: url(fonts/Comfortaa-Regular.ttf);
 }
 
 body {
-margin:0;
-padding:0;
-font-family:"Comfortaa-Regular", sans-serif
-} /**** Initialisation des marges + police****/
+    margin:0;
+    padding:0;
+    font-family:"Comfortaa-Regular", sans-serif;
+
+}     /**** Initialisation des marges + police****/
+
+p {
+    color: #B1B1B1;
+}
 
 h2 {
-position: relative;
-text-align: center;
-width: 60%;
-}
-h2:after {
-content: "";
-position: absolute;
-width: 50%;
-left: 25%;
-height: 15px;
-border-bottom: 5px solid brown;
-padding-top: 20px;
+    position: relative;
+    text-align: center;
+    width: 60%;
 }
 
+h2:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 15px;
+    border-bottom: 5px solid brown;
+    padding-top: 20px;
+}
 
 .container {
-	width: 960px;
-	margin: 0 auto;
+    width: 960px;
+    margin: 0 auto;
 }
-
 
 .logo {
 
 }
 
-.weare {
+#weare {
+    /*background-color: blue;
+    border: 2px solid black;*/
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
 
+.weare-up {
+    /*background-color: brown;
+    border: 2px solid green;*/
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.weare-img {
+    position: relative;
+    /*border: 2px solid black;*/
+
+}
+
+.weare-img img {
+    width: 100%;
+}
+
+.vignette {
+    background-color: brown;
+    border: 3px solid white;
+    color: white;
+    padding: 3px 5px;
+    position: absolute;
+    top:20px;
+    left: -80px;
+}
+
+.weare-up-right {
+    /*background-color: yellow;
+    border: 2px solid black;*/
+    display: grid;
+    grid-column : 2 / 3;
+    grid-template-rows: 30% 70%;
+}
+
+.weare-up-right h2 {
+    grid-row : 1 / 2;
+    margin: 1.3em auto 0;
+    /*border: 1px solid;*/
+}
+
+.weare-up-right p {
+    grid-row: 2 / 3;
+    margin: auto;
+    text-align: justify;
+    padding: 0 1em;
+    /*border: 2px solid;*/
+}
+
+section p {
+    grid-row: 2 / 3;
+    margin: auto;
+    text-align: justify;
+    padding: 0.5em 1em 0 0;
+}
 }
 
 .team {
