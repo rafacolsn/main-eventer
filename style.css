@@ -1,38 +1,38 @@
 @font-face {
-font-family: Comfortaa-Regular;
-src: url(fonts/Comfortaa-Regular.ttf);
+    font-family: Comfortaa-Regular;
+    src: url(fonts/Comfortaa-Regular.ttf);
 }
 
 body {
-margin:0;
-padding:0;
-font-family:"Comfortaa-Regular", sans-serif
+    margin:0;
+    padding:0;
+    font-family:"Comfortaa-Regular", sans-serif
 }
 
 h2 {
-position: relative;
-text-align: center;
-width: 60%;
-}
-h2:after {
-content: "";
-position: absolute;
-width: 50%;
-left: 25%;
-height: 15px;
-border-bottom: 5px solid brown;
-padding-top: 20px;
+    position: relative;
+    text-align: center;
+    width: 60%;
 }
 
+h2:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 15px;
+    border-bottom: 5px solid brown;
+    padding-top: 20px;
+}
 
 .container {
   width:960px;
   margin: 0 auto;
 }
 
-header{
+header {
   background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
-  url("images/header_Background.jpg");
+  url("../main-eventer/images/header_Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,14 +40,23 @@ header{
   margin-bottom: 8em;
 }
 
-.navigation{
-font-family: sans-serif;
-float:right;
-padding-right: 180px;
+.navigation {
+    font-family: sans-serif;
+    float:right;
+    padding-right: 180px;
 }
 
-nav > ul{display: flex;padding:10 0 0 10;}
-li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
+nav > ul {
+    display: flex;
+    padding:10 0 0 10;
+}
+
+li {
+    list-style: none;
+    font-size: 17px;
+    color:white;
+    margin-right: 25px;
+}
 
 .logo {
   position: absolute;
@@ -57,8 +66,6 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
 }
 
 #weare {
-    /*background-color: blue;
-    border: 2px solid black;*/
     margin: 0 auto;
     width: 70%;
     display: grid;
@@ -67,8 +74,6 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
 }
 
 .weare-up {
-    /*background-color: brown;
-    border: 2px solid green;*/
     position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -76,10 +81,11 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
 
 .weare-img {
     position: relative;
-    /*border: 2px solid black;*/
-
 }
-.header-img{width: 100%;}
+
+.header-img {
+    width: 100%;
+}
 
 .weare-img img {
     width: 100%;
@@ -96,8 +102,6 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
 }
 
 .weare-up-right {
-    /*background-color: yellow;
-    border: 2px solid black;*/
     display: grid;
     grid-column : 2 / 3;
     grid-template-rows: 30% 70%;
@@ -106,7 +110,6 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
 .weare-up-right h2 {
     grid-row : 1 / 2;
     margin: 1.3em auto 0;
-    /*border: 1px solid;*/
 }
 
 .weare-up-right p {
@@ -114,7 +117,6 @@ li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
     margin: auto;
     text-align: justify;
     padding: 0 1em;
-    /*border: 2px solid;*/
 }
 
 section p {
@@ -122,11 +124,6 @@ section p {
     margin: auto;
     text-align: justify;
     padding: 0.5em 1em 0 0;
-}
-}
-
-.team {
-
 }
 
 .team-title {
@@ -142,15 +139,15 @@ section p {
 
 }
 
-
-
 .member-text {
     justify-content: center;
     text-align: justify;
 }
+
 .member-ligne {
     display : flex;
 }
+
 .member-container {
     display: flex;
 }
@@ -161,12 +158,11 @@ section p {
     justify-content: center;
 }
 
-
 .member-titre {
-background-color: brown;
-color: whitesmoke;
-width: 40px;
-text-align: center;
+    background-color: brown;
+    color: whitesmoke;
+    width: 40px;
+    text-align: center;
 }
 
 .event-layout {
@@ -265,11 +261,16 @@ footer{
   font-size: 38px;
 }
 
-.footer-logo{
+.footer-logo-container {
   width: 400px;
   grid-column:2;
   grid-row: 2;
   display:flex;
   justify-content:space-between;
   margin-top: -20px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
 }
