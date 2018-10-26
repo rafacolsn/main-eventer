@@ -4,51 +4,54 @@ src: url(fonts/Comfortaa-Regular.ttf);
 }
 
 body {
-    margin:0;
-    padding:0;
-    font-family:"Comfortaa-Regular", sans-serif;
-
-}     /**** Initialisation des marges + police****/
-
-p {
-    color: #B1B1B1;
+margin:0;
+padding:0;
+font-family:"Comfortaa-Regular", sans-serif
 }
 
 h2 {
-    position: relative;
-    text-align: center;
-    width: 60%;
-    }
-   
-h2:after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    left: 25%;
-    height: 15px;
-    border-bottom: 5px solid brown;
-    padding-top: 20px;
-    }
-    
-
-
-h2:after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    left: 25%;
-    height: 15px;
-    border-bottom: 5px solid brown;
-    padding-top: 20px;
+position: relative;
+text-align: center;
+width: 60%;
 }
+h2:after {
+content: "";
+position: absolute;
+width: 50%;
+left: 25%;
+height: 15px;
+border-bottom: 5px solid brown;
+padding-top: 20px;
+}
+
 
 .container {
-    width: 960px;
-    margin: 0 auto;
+  width:960px;
+  margin: 0 auto;
 }
 
-.logo {
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
+  url("images/header_Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height:510px;
+}
 
+.navigation{
+font-family: sans-serif;
+float:right;
+padding-right: 180px;
+}
+
+nav > ul{display: flex;padding:10 0 0 10;}
+li{ list-style: none; font-size: 17px; color:white; margin-right: 25px;}
+
+.logo {
+  position: absolute;
+  top:70px;
+  left: 40%;
+  padding-top: 100px;
 }
 
 #weare {
@@ -73,6 +76,7 @@ h2:after {
     /*border: 2px solid black;*/
 
 }
+.header-img{width: 100%;}
 
 .weare-img img {
     width: 100%;
@@ -126,16 +130,16 @@ section p {
     width:960px;
     height:90px;
     text-align: center;
- 
+
 }
 
 .member-container {
     width: 480px;
     height: 200px;
-    
+
 }
 
-    
+
 
 .member-text {
     justify-content: center;
@@ -235,4 +239,34 @@ text-align: center;
 
 .form {
 
+}
+
+footer{
+  display:grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 30% 70%;
+  height:260px;
+  background-image: url("images/swirl_pattern.png");
+  align-items: center;
+  font-family: arial;
+}
+
+.footer-par{
+  grid-column: 2;
+  grid-row:1;
+}
+
+.footer-par > p {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 38px;
+}
+
+.footer-logo{
+  width: 400px;
+  grid-column:2;
+  grid-row: 2;
+  display:flex;
+  justify-content:space-between;
+  margin-top: -20px;
 }
