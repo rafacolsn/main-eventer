@@ -34,7 +34,7 @@ header{
   background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
   url("images/header_Background.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: cover;
   background-position: center;
   height:485px;
 }
