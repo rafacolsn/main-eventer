@@ -18,7 +18,19 @@ h2 {
     position: relative;
     text-align: center;
     width: 60%;
-}
+    }
+   
+h2:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 15px;
+    border-bottom: 5px solid brown;
+    padding-top: 20px;
+    }
+    
+
 
 h2:after {
     content: "";
@@ -110,8 +122,44 @@ section p {
 
 }
 
-.member {
+.team-title {
+    width:960px;
+    height:90px;
+    text-align: center;
+ 
+}
 
+.member-container {
+    width: 480px;
+    height: 200px;
+    
+}
+
+    
+
+.member-text {
+    justify-content: center;
+    text-align: justify;
+}
+.member-ligne {
+    display : flex;
+}
+.member-container {
+    display: flex;
+}
+
+.member-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.member-titre {
+background-color: brown;
+color: whitesmoke;
+width: 40px;
+text-align: center;
 }
 
 .event-layout {
