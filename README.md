@@ -16,4 +16,4 @@ Répartition du travail :
    - section weare, Raph
    - section team, Marie
    - section events, Olivier
-   - section form, à voir
+   - section form, Steve & Raph
