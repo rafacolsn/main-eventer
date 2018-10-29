@@ -7,7 +7,7 @@ Un travail sur un site web onepage réalisé par :
    - Olivier Keutgens, [olivierk95](https://github.com/olivierk95)
    - Raphaël Colson, [rafacolsn](https://github.com/rafacolsn)
 
-Travail en cours, démarré le 23 octobre dans le cadre de la formation BeCode.
+Travail démarré le 23 octobre et terminé le 29 octobre dans le cadre de la formation BeCode.
 
 Répartition du travail :
 
