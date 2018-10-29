@@ -27,6 +27,8 @@ h2 {
 
 .form-title {
     text-align: left;
+    position: relative;
+    margin-left: 5em;
 }
 
 .weare-underlined {
@@ -45,21 +47,20 @@ h2 {
     left: 39%;
   }
 
- .events-underlined {
+.events-underlined {
      background: #af0102;
      height: 4px;
      width: 200px;
      position: absolute;
      left: 17%;
-  }
+}
 
- .form-underlined {
+.form-underlined {
       background: #af0102;
       height: 4px;
       width: 327px;
       position: absolute;
-      left:12%;
-   }
+}
 
 .container {
   width:960px;
@@ -187,10 +188,6 @@ section {
     display: flex;
 }
 
-.member-picture {
-
-}
-
 .member-titre {
     background-color: #af0102;
     color: whitesmoke;
@@ -200,8 +197,7 @@ section {
 
 .event-layout {
 	display: grid;
-	width: 960px
-	grid-template-columns: 5%, 15%, 60%, 15%, 5%;
+	width: 960px;
 }
 
 .image1 {
@@ -243,9 +239,6 @@ section {
 	padding: 5px 20px 5px 20px;
 }
 
-.event-box-content {
-
-}
 
 .box-text1 {
 	text-align: center;
@@ -277,8 +270,6 @@ section {
     margin: 70px auto 0px;
 }
 
-
-
 .form-name{
     font-size:25px;
     grid-column:1;
@@ -288,7 +279,7 @@ section {
 .form-lastname{
     font-size:25px;
     grid-column:2;
-    
+
 }
 
 .form-email{
@@ -306,7 +297,8 @@ input{
 
 .form-area{
     grid-column: 1/3;
-    font-size:25px;}
+    font-size:25px;
+}
 
 textarea{
     width: 70%;
@@ -333,10 +325,6 @@ button:hover{
     background: #af0102;
     color: white;
 }
-
-
-
-
 
 footer{
   display:grid;
